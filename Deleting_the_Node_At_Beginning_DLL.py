@@ -13,6 +13,7 @@ class DLL:
         self.head = temp.next
         temp.next = None
         temp.prev = None
+        self.head.prev = None
         
     def display(self):
         temp = self.head
